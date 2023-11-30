@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>   
+        <div id = 'root'>
+            <!-- Hello world using html -->
+            <!-- <h1> Hello World </h1> -->
+        </div>
+    
+        <!-- Hello World Program using JS -->
+        <!-- <script>
+        const divelement =  document.getElementById('root');
+        const heading =  document.createElement("h1");
+        heading.innerHTML = "Hello World";
+        divelement.appendChild(heading);
+        </script> -->
+        
+        <!-- Importing React into out code using CDN -->
+        <script 
+        crossorigin 
+        src="https://unpkg.com/react@18/umd/react.development.js">
+        </script>
+
+        <script 
+        crossorigin 
+        src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
+        </script>
+    
+        <!-- Hello World Using React -->
+        <script>
+            // Creating a React Element using React CDN
+             const heading = React.createElement('h1',{},'Hello World From React');
+
+             // Creating a Root Element using ReactDOM CDN
+             const root = ReactDOM.createRoot(document.getElementById('root'));
+
+                // Rendering the React Element into the Root Element
+                root.render(heading);
+        </script>
+    </body>
+</html>
