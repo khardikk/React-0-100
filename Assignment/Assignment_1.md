@@ -24,12 +24,16 @@ _Series of expressions_ will govern the markup that will be generated.
  
 **div{This is a div}**
 Will generate a div tag with whatever text that is specified inside the curly braces (**{}**)
- ![[1_Tneg7SSPZGotSPC13K_1gA.webp]]
+![image](https://github.com/khardikk/React-0-100/assets/64458111/c2be1d6e-1491-459d-b23c-bd21171a52a1)
+
 **Nested elements**
 
 To generate nested we will use **‘>’** operator
 
-**ul>li**![[1_rTrXeNkP6GYAjSG0GdscSQ.webp]]
+**ul>li**
+
+![image](https://github.com/khardikk/React-0-100/assets/64458111/a9398193-abbb-4656-87f6-450297896d70)
+
 
 Generate a list 3 **li**’s , each **li** has an anchor(**a**) tag:
 
@@ -37,21 +41,33 @@ For nesting we can use **‘>’** operator. But how would we go about for rep
 Repetition can be done using  operator **li`*`3** will give three li’s just like normal multiplication.
 
 **ul>li*3>a*
-![[1_amQIRkLG-M6faa3zs0F5kg.webp]]
+![image](https://github.com/khardikk/React-0-100/assets/64458111/a718bdf7-269f-4902-9240-3974682c7093)
+
 If you wanted numbers inside your li’s you could use $ operator
 
-**ul>li{$}*3**![[1_NjO5OR0xTBPtep42TUlBEw.webp]]
+**ul>li{$}*3**
+
+![image](https://github.com/khardikk/React-0-100/assets/64458111/ffdb43e2-3814-4101-981a-ff9f2ae56539)
+
 **ul>li{$@-}*5**
-![[1_kM6CeQzsGk1_qw9WxjVwOQ.webp]]**What about classes and Id**
+![image](https://github.com/khardikk/React-0-100/assets/64458111/03add545-5b8d-4fe1-83c8-f57bff83d8a9)
+
+**What about classes and Id**
 
 **div#main.container.responsive**
 
-you can specify Id by using **‘#’** and classes by using .![[1_laqZ5TDwecl3tirbzOUBxg.webp]]
+you can specify Id by using **‘#’** and classes by using .
+
+![image](https://github.com/khardikk/React-0-100/assets/64458111/b42bdac3-eb13-4156-a685-a182578e354d)
+
 Custom attributes
 
 If you want a div with custom data property you would do the following:
 
-**div[data-name=logo]**![[1_R6-ZcTR_lFIksaQR8CibIQ.webp]]
+**div[data-name=logo]**
+
+![image](https://github.com/khardikk/React-0-100/assets/64458111/0d5cd568-0cd7-4260-8d6d-7e9c5888e5cf)
+
 
 **Generating Siblings.**
 
@@ -61,11 +77,16 @@ These are not nested so you cant use ‘>’
 
 To generate sibling use ‘+’ operator
 
-**header+div+footer**![[1_oLUgW8pABSI0F7SUJ2_7TA.webp]]**Grouping**
+**header+div+footer**
+![image](https://github.com/khardikk/React-0-100/assets/64458111/7183ef70-0e0c-4af3-bdc2-ad6c8a64f059)
+
+**Grouping**
 
 You can use ‘()’ operator to group complex abbreviations.
 
-**div>(a>p>span+span)*3**![[1_c_H8zGD3puVI3YaY1W5T7w.webp]]
+**div>(a>p>span+span)*3**
+![image](https://github.com/khardikk/React-0-100/assets/64458111/0b5fe662-9e2a-4e75-9fd0-1eb1a3a9a833)
+
 **Lorem Ipsum**
 
 Using this you can get lorem Ipsum placeholder text:
@@ -131,8 +152,7 @@ Framework Ex - Node JS Angular JS, Vue Js
 ```
 <script crossorigin="anonymous|use-credentials">
 ```
-![[Pasted image 20231203143150.png]]
-![[Pasted image 20231203143157.png]]
+![image](https://github.com/khardikk/React-0-100/assets/64458111/f9704793-681f-4b42-b5aa-e69bc9d9ea63)
 
 - The `crossorigin` attribute sets the mode of the request to an HTTP CORS Request.
 - Web pages often make requests to load resources on other servers. Here is where CORS comes in.
@@ -179,7 +199,8 @@ The async and defer attributes both allow the browser to continue parsing the HT
   This Gaurentees the order ( when multiple scripts are dependent on each other) ( maintains the order of the script)
 	- `<script defer src="script.js"></script>`
 	
-![[Pasted image 20231203145542.png]]
+![image](https://github.com/khardikk/React-0-100/assets/64458111/5dfc88e1-6112-4621-90d6-1435ad34e56c)
+
 
 - **Advantages of using the defer attribute:**
 
