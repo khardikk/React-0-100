@@ -1,19 +1,6 @@
-    /**
-     * 
-     * 
-     *  How to create a structure like this in React
-     * <div id = "parent">
-     *     <div id = "child">
-     *         <h1>I am HDK </h1>
-     *         <h2>I am HDK sibling </h2>
-     *       </div>
-     * <div id = "child2">
-     *         <h1>I am HDK2 </h1>
-     *         <h2>I am HDK2 sibling </h2>
-     *       </div>
-     * </div>
-     */
-
+    import React from "react";
+    import ReactDOM from "react-dom/client";
+    
         const parent = React.createElement(
         "div", 
         {id:"parent"}, 

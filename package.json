@@ -1,0 +1,32 @@
+{
+  "name": "react-practice",
+  "version": "1.0.0",
+  "description": "react practice in depth",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khardikk/React-0-100.git"
+  },
+  "keywords": [],
+  "author": "hardikk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khardikk/React-0-100/issues"
+  },
+  "homepage": "https://github.com/khardikk/React-0-100#readme",
+  "devDependencies": {
+    "cssnano": "^6.0.1",
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.32",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
